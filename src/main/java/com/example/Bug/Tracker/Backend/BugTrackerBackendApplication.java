@@ -33,6 +33,8 @@ public class BugTrackerBackendApplication {
 	
 	
 	//Placeholder for default Admin Account.
+	/*
+	 * Use it if no Admin exist
 	@Bean
 	CommandLineRunner commandLineRunner() {
 		
@@ -48,6 +50,7 @@ public class BugTrackerBackendApplication {
 			
 		};
 	}
+	*/
 	
 	
 	
