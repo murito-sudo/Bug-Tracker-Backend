@@ -23,7 +23,7 @@ then
 
 ### Pull image and create container for the Spring Boot app:
 ```
-  docker pull luise120/bug-tracker
+  docker pull luise120/bug-tracker:latest
 ```
 then
 ```
