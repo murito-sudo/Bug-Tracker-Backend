@@ -33,8 +33,7 @@ public class BugTrackerBackendApplication {
 	
 	
 	//Placeholder for default Admin Account.
-	/*
-	 * Use it if no Admin exist
+	
 	@Bean
 	CommandLineRunner commandLineRunner() {
 		
@@ -42,15 +41,17 @@ public class BugTrackerBackendApplication {
 		
 		return args -> {
 			
+			if(UJR.findByusername("Morenight").isEmpty()) {
+				UJR.save(new User(0, "Morenight",encoder.encode("Abreu"),"Admin"));
+			}
 			
 			
-			UJR.save(new User(0, "Morenight",encoder.encode("Abreu"),"Admin"));
 			
 			
 			
 		};
 	}
-	*/
+	
 	
 	
 	
