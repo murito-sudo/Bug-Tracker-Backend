@@ -14,7 +14,7 @@ Java, Spring Boot, Spring JPA, Spring Security, MySQL, Mockito, Docker.
  
 ### Pull Image and create container for MySQL
 ```
-  docker pull luise120/mysql
+  docker pull luise120/mysql:latest
 ```
 then
 ```
