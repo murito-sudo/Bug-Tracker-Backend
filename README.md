@@ -1,5 +1,5 @@
 # Bug Tracker Application
-Application to track Bugs and Tickets within company's projects.
+Backend App to track Bugs and Tickets within company's projects.
 
 # Technologies Used
 Java, Spring Boot, Spring JPA, Spring Security, MySQL, Mockito, Docker.
@@ -56,3 +56,6 @@ then
 # Docker Images
 - [Spring Boot App](https://hub.docker.com/r/luise120/bug-tracker).
 - [MySQL Image](https://hub.docker.com/r/luise120/mysql).
+
+
+# Front-End Coming Soon
