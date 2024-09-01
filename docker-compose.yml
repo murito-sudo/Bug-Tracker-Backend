@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+    # Spring Boot Application
+  Bug-Tracker-Backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: bug_tracker_api:latest
+    restart: always
+    container_name: bug-tracking-api
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-host:3306/bug-tracker-api
+      SPRING_DATASOURCE_USERNAME: bugtracker
+      SPRING_DATASOURCE_PASSWORD: root
+    ports:
+      - 8080:8080
